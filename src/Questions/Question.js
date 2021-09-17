@@ -7,7 +7,7 @@ function Question({question, answer}) {
 
     return (
         <>
-        <h5>{question}</h5>
+        <td>{question}</td>
         </>
     )
 }

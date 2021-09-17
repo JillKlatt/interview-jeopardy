@@ -17,8 +17,14 @@ function App() {
 
   return (
     <div className="App">
+      <table>
+        <tr>
       {categoryCards}
+      </tr>
+      <tr>
       {questionCards}
+      </tr>
+      </table>
     </div>
   );
 }

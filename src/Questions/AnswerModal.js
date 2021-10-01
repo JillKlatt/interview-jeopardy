@@ -4,10 +4,8 @@ function AnswerModal({answer, showAnswer, toggleModal}) {
 
 
     const closeModal = () => {
-
         toggleModal()
     }
-
 
     return (
         <>

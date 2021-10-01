@@ -7,10 +7,6 @@ function QuestionModal({question, answer, id, toggleModal, showModal}) {
 
     const [showAnswer, setShowAnswer] = useState(false)
 
-    const closeModal = () => {
-        toggleModal()
-    }
-
     const toggleAnswer = () => {
         setShowAnswer(showAnswer => !showAnswer)
     }
@@ -22,7 +18,7 @@ function QuestionModal({question, answer, id, toggleModal, showModal}) {
                 {showAnswer ? 
                 <AnswerModal answer={answer} showAnswer={showAnswer} toggleModal={toggleModal}/> :
                 null }
-                <p>{question.toUpperCase()}</p>
+                <p>{question}</p>
                 <span className='answer' onClick={toggleAnswer}>answer</span>
             </div>
         </div>

@@ -5,7 +5,6 @@ function Category({category}) {
 
     return(
         <>
-
         <th className='category-title'>{category}</th>
         </>
     )

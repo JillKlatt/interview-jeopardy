@@ -1,0 +1,14 @@
+td {
+    font-family: 'Noto Serif', serif;
+}
+
+.button-grid {
+    display: flex;
+}
+.question-button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 400%;
+    padding: 20% 35%;
+    display: flex;
+}
+

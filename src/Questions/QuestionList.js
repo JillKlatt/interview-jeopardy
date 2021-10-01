@@ -1,12 +1,13 @@
-const QuestionList = [
+export const RowOne = [
     {
-        question: "Instance, Class, Local, Global",
-        answer: "What are the four types of variables in Ruby?"
-
+        question: "Instance, Class, Local, & Global",
+        answer: "What are the four types of variables in Ruby?",
+        id: 1
     },
     {
         question: "JavaScript is a ___ typed language",
-        answer: "What is 'dynamically'?"
+        answer: "What is 'dynamically'?",
+        id: 2
     },
     {
         question:
@@ -25,27 +26,48 @@ const QuestionList = [
         12
         
         (Since, even though let variables are not hoisted, due to async nature of javascript, the complete function code runs before the setTimeout function. Therefore, it has access to both x and y. )
-        </code>`
+        </code>`,
+        id: 3
     },
     {
-        question: "",
-        answer: ""
+        question: "These HTML elements do not have closing tags, such as <br /> or <img />",
+        answer: "What are void elements?",
+        id: 4
     },
     {
-        question: "",
-        answer: ""
-    },
-    {
-        question: "Using plus sign in between strings. Using a single space in between strings. Using << sign in between strings.",
-        answer: "What are ways to concatenate a string?"
-
-    },
-    {
-        question: "",
-        answer: ""
+        question: "What superpower will you bring to this company?",
+        answer: "Fuckin NAILED IT BRO",
+        id: 5
     }
 ]
-export default QuestionList
+
+export const RowTwo = [
+    {
+        question: "Using plus sign in between strings. Using a single space in between strings. Using << sign in between strings.",
+        answer: "What are ways to concatenate a string?",
+        id: 6
+    },
+    {
+        question: "",
+        answer: "",
+        id: 7
+    },
+    {
+        question: "",
+        answer: "",
+        id: 8
+    },
+    {
+        question: "",
+        answer: "",
+        id: 9
+    },
+    {
+        question: "",
+        answer: "",
+        id: 10
+    }
+]
 
 // ,
 //     {

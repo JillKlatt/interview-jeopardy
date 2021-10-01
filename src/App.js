@@ -1,5 +1,5 @@
 import './App.css';
-import QuestionList from './Questions/QuestionList'
+import {RowOne, RowTwo} from './Questions/QuestionList'
 import CategoryList from './Categories/CategoryList'
 import Category from './Categories/Category';
 import Question from './Questions/Question'
@@ -7,23 +7,40 @@ import Question from './Questions/Question'
 function App() {
 
   const categoryCards = CategoryList.map(c => {
-    return <Category category={c} />
+    return <Category category={c} key={c}/>
   })
 
-  const questionCards = QuestionList.map(q => {
-    return <Question question={q.question} answer={q.answer} />
+  const rowOneQuestionCards = RowOne.map(q => {
+    return (
+    <td key={q.id}>
+    <Question amount="100" question={q.question} answer={q.answer} id={q.id} key={q.id}/>
+    </td>)
+  })
+
+  const rowTwoQuestionCards = RowTwo.map(q => {
+    return (
+      <td key={q.id}>
+      <Question amount="200" question={q.question} answer={q.answer} id={q.id} key={q.id}/>
+      </td>)
   })
 
 
   return (
     <div className="App">
       <table>
-        <tr>
+        <thead>
+      <tr>
       {categoryCards}
       </tr>
+      </thead>
+      <tbody>
       <tr>
-      {questionCards}
+      {rowOneQuestionCards}
       </tr>
+      <tr>
+      {rowTwoQuestionCards}
+      </tr>
+      </tbody>
       </table>
     </div>
   );

@@ -19,7 +19,7 @@ function QuestionModal({question, answer, id, toggleModal, showModal}) {
                 <AnswerModal answer={answer} showAnswer={showAnswer} toggleModal={toggleModal}/> :
                 null }
                 <p>{question}</p>
-                <span className='answer' onClick={toggleAnswer}>answer</span>
+                <span className='close' onClick={toggleAnswer}>answer</span>
             </div>
         </div>
         </>

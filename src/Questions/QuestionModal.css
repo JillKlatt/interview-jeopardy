@@ -16,7 +16,7 @@
   .modal-content {
     background-color: #110799;
     margin: 3% auto; /* 15% from the top and centered */
-    padding: 18% 60px;
+    padding: 15% 50px;
     border: 1px solid rgb(36, 17, 143);
     width: 80%; /* Could be more or less, depending on screen size */
   }
@@ -24,7 +24,7 @@
   /* The Close Button */
   .close {
     color: rgb(128, 44, 44);
-    float: right;
+    position:fixed;
     font-size: 28px;
     font-weight: bold;
   }

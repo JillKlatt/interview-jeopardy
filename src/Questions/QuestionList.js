@@ -59,8 +59,8 @@ export const RowTwo = [
         id: 7
     },
     {
-        question: "",
-        answer: "",
+        question: `What is one O(n) way to solve this problem: 'Find the max sum of any contiguous subarray of size k'`,
+        answer: "What is the sliding window technique?",
         id: 8
     },
     {
@@ -77,8 +77,8 @@ export const RowTwo = [
 
 export const RowThree = [
     {
-        question: "Using plus sign in between strings. Using a single space in between strings. Using << sign in between strings.",
-        answer: "What are ways to concatenate a string?",
+        question: "This statement is used to call a block within a method wit a value",
+        answer: "What is a 'yield' statement?",
         id: 11
     },
     {
@@ -94,7 +94,7 @@ export const RowThree = [
         id: 12
     },
     {
-        question: "",
+        question: "What is one O(n) way to solve this problem: 'Find two numbers in a sorted array that sum to a target k'",
         answer: "",
         id: 13
     },
@@ -112,18 +112,18 @@ export const RowThree = [
 
 export const RowFour = [
     {
-        question: "Using plus sign in between strings. Using a single space in between strings. Using << sign in between strings.",
-        answer: "What are ways to concatenate a string?",
+        question: "At least three ways to add to an array in Ruby",
+        answer: "What are 'push', '<<', 'unshift', 'insert' ?",
         id: 16
     },
     {
-        question: "",
-        answer: "",
+        question: "The current object that the function or scope is a property of?",
+        answer: "What is 'this'",
         id: 17
     },
     {
-        question: "",
-        answer: "",
+        question: "Describe Big O Notation",
+        answer: "What is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity? Or whatever you said! Nailed it!",
         id: 18
     },
     {
@@ -140,23 +140,23 @@ export const RowFour = [
 
 export const RowFive = [
     {
-        question: "Using plus sign in between strings. Using a single space in between strings. Using << sign in between strings.",
-        answer: "What are ways to concatenate a string?",
+        question: "The developer of Ruby",
+        answer: "Who is Yukihiro 'martz' Matsumoto in mid 1990 in Japan?",
         id: 21
     },
     {
-        question: "",
-        answer: "",
+        question: "A form of caching where the return value of a function is cached based on its parameters. If the parameter of that function is not changed, the cached version of the function is returned.",
+        answer: "What is memoization?",
         id: 22
     },
     {
-        question: "",
-        answer: "",
+        question: "Explain a singly linked list",
+        answer: "Linked List, like arrays, is a linear data structure. It contains head, tail and length properties. Each element in linked list is a node, which has a value and a reference to next node, or if it’s tail, points to null",
         id: 23
     },
     {
-        question: "",
-        answer: "",
+        question: "One of these can be used to descibe a group of html elements, whereas the other can only be used once",
+        answer: "What are classes and ids?",
         id: 24
     },
     {
